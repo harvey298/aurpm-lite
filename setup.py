@@ -7,7 +7,7 @@ from sys import argv
 from subprocess import run, PIPE, STDOUT, Popen
 
 # Vars
-installdir_name = ".aurpm-test"
+installdir_name = ".aurpm"
 help = """\npython setup.py -m Installs aurpm \npython setup.py -l Installs aurpm-lite \npython setup.py -r Removes aurpm/aurpm-lite\npython setup.py -s Installs Aurpm server"""
 homedir = os.environ['HOME']
 install_path = homedir + '/' + installdir_name
